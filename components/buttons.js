@@ -1,14 +1,14 @@
-import Styles from './styles.js';
+import Styles from './styles';
 import React from 'react';
 import { View } from 'react-native';
-import Column from './column.js';
+import ColumnContainer from '../containers/column-container';
 
 const Buttons = () => (
   <View style={Styles.keyboard} >
-    <Column value={["7","4", "1", "0"]} />
-    <Column value={["8","5", "2", "."]} />
-    <Column value={["9","6", "3", "="]} />
-    <Column value={["/","*", "-", "+"]} />
+    <ColumnContainer value={["7","4", "1", "0"]} />
+    <ColumnContainer value={["8","5", "2", "."]} />
+    <ColumnContainer value={["9","6", "3", "="]} />
+    <ColumnContainer value={["CE","/","*", "-", "+"]} />
   </View>
 );
 
