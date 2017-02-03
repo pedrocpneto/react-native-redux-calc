@@ -1,12 +1,12 @@
 
 import React from 'react';
 import { View, TouchableOpacity, StatusBar } from 'react-native';
-import DisplayValue from './display-value.js';
-import Buttons from '../components/buttons.js';
-import Styles from '../components/styles.js';
+import DisplayValue from './display-value';
+import Buttons from '../components/buttons';
+import Styles from '../components/styles';
 import { createStore } from 'redux';
 import { Provider } from 'react-redux';
-import calc from '../reducers/calc.js';
+import calc from '../reducers';
 
 const store = createStore(calc);
 

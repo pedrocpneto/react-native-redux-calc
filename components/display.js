@@ -1,4 +1,4 @@
-import Styles from './styles.js';
+import Styles from './styles';
 import React from 'react';
 import { Text } from 'react-native';
 
