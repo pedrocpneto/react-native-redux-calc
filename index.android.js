@@ -6,6 +6,6 @@
 
 import { Component } from 'react'
 import { AppRegistry } from 'react-native';
-import Bestcalc from './components/bestcalc.js' 
+import Bestcalc from './containers/bestcalc.js' 
 
 AppRegistry.registerComponent('bestcalc', () => Bestcalc);
