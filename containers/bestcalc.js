@@ -14,8 +14,8 @@ const Bestcalc = () => (
   <Provider store={store}>
     <View style={Styles.container}>
       <StatusBar
-        backgroundColor="cyan"
-        barStyle="dark-content" />
+        backgroundColor="#006064"
+        barStyle="light-content" />
       <DisplayValue style={{flex: 1}} />
       <Buttons />
     </View>

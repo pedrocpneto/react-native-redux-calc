@@ -4,6 +4,7 @@ import {StyleSheet} from 'react-native';
 
 // Esquema de cores
 //https://coolors.co/4b0082-00ffff-171738-e8d7f1-dff3e4
+//https://coolors.co/673ab7-00bcd4-311b92-e0f7fa-006064
 
 const Styles = StyleSheet.create({
   container: {
@@ -15,8 +16,8 @@ const Styles = StyleSheet.create({
   display: {
     flex: 1,
     fontSize: 64,
-    color:'#171738',
-    backgroundColor:'cyan',
+    color:'#311b92',
+    backgroundColor:'#00bcd4',
     elevation: 0
   },
   keyboard: {
@@ -33,8 +34,8 @@ const Styles = StyleSheet.create({
     justifyContent: 'center'
   },
   button: {
-    backgroundColor: 'indigo',
-    color: '#dff3e4',
+    backgroundColor: '#673ab7',
+    color: '#E0F7FA',
     textAlign: 'center',
     flex: 1,
     textAlignVertical: 'center',
